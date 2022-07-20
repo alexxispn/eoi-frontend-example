@@ -8,7 +8,7 @@ function App() {
         <img src="works.gif" className="App-logo" alt="logo" />
       </header>
       <article>
-        <h1>Hi World!</h1>
+        <h1>Hello World!</h1>
       </article>
     </div>
   );
