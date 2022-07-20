@@ -17,4 +17,9 @@ describe('App', () => {
 
     expect(screen.getByText(/The cake is a lie/i)).toBeInTheDocument();
   });
+  it('should render button with "click me"', () => {
+    render(<App />);
+
+    expect(screen.getByText(/Click me/i)).toBeInTheDocument();
+  });
 });
