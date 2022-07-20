@@ -10,6 +10,7 @@ function App() {
       <article>
         <h1>Hello World!</h1>
         <h2>This is a simple React app.</h2>
+        <p>The cake is a lie</p>
       </article>
     </div>
   );
